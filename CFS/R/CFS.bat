@@ -1,0 +1,1 @@
+"c:\Program Files\R\R-3.5.3\bin\R.exe" CMD BATCH --vanilla --slave "C:\users\edavis67\onedrive - dxc production\documents\industrialized ai badge\guild_project\CFS\crime_mapper.R"

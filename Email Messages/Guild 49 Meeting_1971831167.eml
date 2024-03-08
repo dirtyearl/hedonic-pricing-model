@@ -1,0 +1,547 @@
+Received: from SN1NAM02FT052.eop-nam02.prod.protection.outlook.com
+ (10.152.72.60) by SN1NAM02HT090.eop-nam02.prod.protection.outlook.com
+ (10.152.73.55) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id 15.20.1965.12; Wed, 12 Jun
+ 2019 13:25:20 +0000
+Authentication-Results: spf=pass (sender IP is 104.47.37.59)
+ smtp.mailfrom=dxc.com; amer.teams.ms; dkim=pass (signature was verified)
+ header.d=CSCPortal.onmicrosoft.com;amer.teams.ms; dmarc=pass action=none
+ header.from=dxc.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of dxc.com designates
+ 104.47.37.59 as permitted sender) receiver=protection.outlook.com;
+ client-ip=104.47.37.59; helo=NAM02-CY1-obe.outbound.protection.outlook.com;
+Received: from NAM02-CY1-obe.outbound.protection.outlook.com (104.47.37.59) by
+ SN1NAM02FT052.mail.protection.outlook.com (10.152.72.146) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id
+ 15.20.1987.11 via Frontend Transport; Wed, 12 Jun 2019 13:25:20 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=CSCPortal.onmicrosoft.com; s=selector1-CSCPortal-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=yumCQ9eBO/3JaEks+Il01miO0bVmL9Q+h/rxQa5Bcgk=;
+ b=SYAh4vV+LaDdsIZLqD7Yt/d2ER98lyLZ0uril4bxgh5koI9ZXUkDpCgvagVAHWr0CFwphYFKP8ndwP6Hc2s+3j5vPqWt7niHG1FRDkbR5FNLALerULJM7l683eE9NwR0jsTunFJqUaUT1fVYUMiCORSLH8Yo7AQJtUqp5jRZw7I=
+Received: from SN6PR01MB4221.prod.exchangelabs.com (52.135.121.143) by
+ SN6PR01MB4879.prod.exchangelabs.com (52.135.127.82) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.1987.11; Wed, 12 Jun 2019 13:25:19 +0000
+Received: from SN6PR01MB4221.prod.exchangelabs.com
+ ([fe80::ecce:324b:35fd:d634]) by SN6PR01MB4221.prod.exchangelabs.com
+ ([fe80::ecce:324b:35fd:d634%4]) with mapi id 15.20.1965.017; Wed, 12 Jun 2019
+ 13:25:19 +0000
+From: "Davis, Earl" <edavis67@dxc.com>
+To: AI Guild 49 - UTC -6 - Industrialized AI Open Badge Academy Boot Camp
+ 3.13.19-4.17.19 <c3580093.CSCPortal.onmicrosoft.com@amer.teams.ms>
+Subject: Guild 49 Meeting
+Thread-Topic: Guild 49 Meeting
+Thread-Index: AdUgfhU9OfcB2d2lSmSy9A4/cR5uHAApDC2g
+Date: Wed, 12 Jun 2019 13:25:19 +0000
+Message-ID:
+ <SN6PR01MB4221368F2C890F2ABF2452A6C7EC0@SN6PR01MB4221.prod.exchangelabs.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+Authentication-Results-Original: spf=none (sender IP is )
+ smtp.mailfrom=edavis67@dxc.com; 
+x-ms-exchange-calendar-series-instance-id:
+ BAAAAIIA4AB0xbcQGoLgCAAAAADAzmcsVCDVAQAAAAAAAAAAEAAAAIvxzSfQB85IjML29hGCyz0=
+x-originating-ip: [192.46.53.11]
+x-ms-publictraffictype: Email
+X-MS-Office365-Filtering-Correlation-Id: 5f7d9994-21df-4e44-e8d8-08d6ef396b1b
+X-Microsoft-Antispam-Untrusted:
+ BCL:0;PCL:0;RULEID:(2390118)(7020095)(4652040)(8989299)(4534185)(4627221)(201703031133081)(201702281549075)(8990200)(5600148)(711020)(4605104)(1401327)(2017052603328)(7193020);SRVR:SN6PR01MB4879;
+X-MS-TrafficTypeDiagnostic: SN6PR01MB4879:|SN1NAM02HT090:
+X-MS-Exchange-PUrlCount: 9
+x-microsoft-antispam-prvs:
+ <SN6PR01MB4879983D816A408846A0475EC7EC0@SN6PR01MB4879.prod.exchangelabs.com>
+x-ms-oob-tlc-oobclassifiers: OLM:6430;OLM:6790;
+x-forefront-prvs: 0066D63CE6
+X-Forefront-Antispam-Report-Untrusted:
+ SFV:NSPM;SFS:(10009020)(136003)(396003)(346002)(39860400002)(376002)(366004)(189003)(199004)(861006)(102836004)(5660300002)(53936002)(3846002)(6116002)(790700001)(52536014)(14454004)(26005)(6916009)(2906002)(45080400002)(99286004)(186003)(7116003)(476003)(478600001)(6506007)(33656002)(7736002)(7696005)(486006)(6436002)(733005)(8676002)(9686003)(606006)(66946007)(73956011)(6306002)(74316002)(55016002)(66476007)(64756008)(66556008)(316002)(81166006)(81156014)(71200400001)(25786009)(66446008)(66066001)(86362001)(68736007)(5024004)(14444005)(256004)(236005)(8936002)(76116006)(54896002)(71190400001)(27310500001);DIR:OUT;SFP:1101;SCL:1;SRVR:SN6PR01MB4879;H:SN6PR01MB4221.prod.exchangelabs.com;FPR:;SPF:None;LANG:en;PTR:InfoNoRecords;MX:1;A:1;
+received-spf: None (protection.outlook.com: dxc.com does not designate
+ permitted sender hosts)
+x-ms-exchange-senderadcheck: 1
+X-Microsoft-Antispam-Message-Info-Original:
+ N3HbcljWfAZB7jTRzPFPJ1tV4XHET1N/ym1G1tjYnudgOCuj5+LlIHEc75TogLD+aNiuBwOW4Fu/kXbkjbzAmXa7EOfCeCwHXOwcFkoPSqqlvSAPVYh/8LDzbIC7kku+iI/aUXjtrYLOZbDOKeLWAmr95LlgGglL/EA+IIhDPsDsT73FNBgKft81ZBwmyoarQb4MPUulljUQcAo2EsmNLvGaeZFrOlNmeSZdeQ2O/h63oiuR1YWqDYMfRVAzoYKjjN7AZpBWAC38O97G2SAJlmobM9E5WPoftkY8hw200WSW2Gvzmlun1Vxmq6DRY4M7A5+t9xfzms+e3oUd+jP+Yam3zr3vORkE2ZnNEPFXQ6REFNfcZhya+RlUoMUdgdA58IqVQMkpymscaTxlI9EqSTT4NqCROeDYfiSogcNnPRc=
+Content-Type: multipart/alternative;
+	boundary="_000_SN6PR01MB4221368F2C890F2ABF2452A6C7EC0SN6PR01MB4221prod_"
+MIME-Version: 1.0
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SN6PR01MB4879
+Return-Path: edavis67@dxc.com
+X-MS-Exchange-Forest-MessageScope: d05e17c4-5098-4d52-85d6-2b3054875c8d
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: d05e17c4-5098-4d52-85d6-2b3054875c8d:0
+X-MS-Exchange-Transport-CrossTenantHeadersStripped:
+ SN1NAM02FT052.eop-nam02.prod.protection.outlook.com
+X-MS-Exchange-Transport-CrossTenantHeadersPromoted:
+ SN1NAM02FT052.eop-nam02.prod.protection.outlook.com
+X-Forefront-Antispam-Report:
+ CIP:104.47.37.59;IPV:NLI;CTRY:;EFV:NLI;SFV:NSPM;SFS:(2980300002)(199004)(189003)(37854004)(102836004)(106002)(3846002)(236005)(45080400002)(476003)(7576002)(54896002)(790700001)(6916009)(126002)(74316002)(6306002)(9686003)(22756006)(52536014)(5024004)(246002)(14444005)(7736002)(7636002)(5660300002)(966005)(14454004)(33656002)(26005)(6436002)(336012)(61614004)(16003)(6116002)(486006)(7116003)(8676002)(6506007)(7696005)(99286004)(2160300002)(16586007)(1096003)(30864003)(55016002)(86362001)(733005)(606006)(8636004)(66066001)(356004)(25786009)(71190400001);DIR:INB;SFP:;SCL:1;SRVR:SN1NAM02HT090;H:NAM02-CY1-obe.outbound.protection.outlook.com;FPR:;SPF:Pass;LANG:en;PTR:mail-cys01nam02lp2059.outbound.protection.outlook.com;A:1;MX:1;
+X-MS-Exchange-Forest-ArrivalHubServer:
+ SN1NAM02HT090.eop-nam02.prod.protection.outlook.com
+X-MS-Office365-Filtering-Correlation-Id-Prvs:
+ bae4771b-641f-4d86-ab6e-08d6ef396a65
+X-Microsoft-Antispam:
+ BCL:0;PCL:0;RULEID:(2390118)(7020095)(4652040)(5600148)(710020)(711020)(4605104)(4709080)(1420029)(8001031)(1402095)(71702078)(7193020);SRVR:SN1NAM02HT090;
+X-MS-Exchange-Forest-IndexAgent-0:
+ AQ0CZW4AAdUEAAAPAAADH4sIAAAAAAAEAM1V7W4cNRT17PfOZioe4V
+ b8acRuaLJKaPlTRSmIIgoVDQJUVci7c3fH6sx4sD1JFvU9eDgegNfg
+ 2N5um9KiFoHUaOT1x/0499xj54+PsvRck5PlM5IL3TpyBVPNV44WMl
+ 8zVdKxUbK0B1l68KH8ZenXWtX0+NmmYXrI7FS9Rh1Gt4uSyZ9h4x6d
+ m83W5kde0GnTbP0WG2oKXXOWfnI4Ozm+PTs6PJ4dH949ols/PD6d0i
+ NZajotnZ7S2en+dHp057Pjo9tHJ/OPgwGdOsd1zmz36Yt6XSpbYL9W
+ jnN67MCX3c/Sw9md+Xw2v4vfk/kdunXWWqcrNvbTR9K4GhMCEkT7l/
+ G/VHVOkkq9lCXVbbVgk6Vnul6x4XrJ9OD+57SLC3Nt1trRRreGcrRz
+ huSPHnx7L0uff8UliHly87uzW08Ob8/nT/dvPv2gev3Lf/wXVZClD9
+ XSaKtXjs5ZVvalkL5haWqqtOHtnYjnz+ESTUg3TunaQnOFslRtdw3/
+ 2rJ1hC3LNa6S9oR7uWlDGrrjQpYr0iu6/9MZgi6LWpd6vTmgB8FJ1a
+ HvOfHVsmytuuByQyv4+jsp89ywtcywXoW4EvhqHW/sztXwUjXKZ9er
+ LHURnrVyzdNrTrJ1hTbqN7gApmGZT6kxCDPFwklVT2mpm4A8V0hbqR
+ rKI1nj7kDA/0tbrrNCZ7pqfL7ZjM5fqcMz5YysbaWci/DfieVdvGDG
+ 3kA5S3K1UqXyt+p923COpW0X1kl/4RDuOtt4RKCJS+WKwJp0Ti6LCp
+ 2xU7yqG9Bbe57Bugbx4NxsplmK3ZXKYYVL6pHi6EKVvAYcVQME3mMo
+ z5+8unSFDNA1IJpLZZngIkvg5iuuGkcroyvfyGWpbWsA/hSQ2voVFR
+ i+UHw5pdYC+0vLrQCcUYs2pEIWIC7Uwr9H765FekcpZul7a/H16DtQ
+ hbxgD4LRwvyaiX972RhtkKhkCb5yXFyj0SY8qzmX7OOXpc+r2IZdQF
+ WrTajQ+vqMlxzwtXgreFZJVR7Q92Dd5CWSeFC+w+yrCKmjDdnCx/V1
+ 64aNrwMCXvjX/Lpc/Wu+02v4eV2v3jGeezBe1b77IauRS4f2BiBNa2
+ wr43PEV02plsrRpfGXpya5NsxVaJGhtb5gU4cV/oNCgQ7EeR+veGgJ
+ eP2d80+dZwFK8aC2dfkLYttl4fM12jJeCNHpiG5P9Pti0BW9OBmL35
+ M4G4rxUIww4ixadEUfR/DpJ8OOEJ2k0xOil/Ti2BeiL4bRpicGnaQ/
+ FmIs9uA4FhPEGYjhIBknQiSJuJF0ukJ0k14cfQSfOx2JMeJ3k8EbfM
+ UYkRPRAZiBGKVi0kl6wWyCU580EcMAr+uXo8427J9JDB1LwhjL678o
+ D8swGUUygn8PY/wQOu6kYi/uAOIkIIvg4unuwylydQKdkbv4pcGy5/
+ OiklFMFOP0xM/RYCgmEUw8ejuSSbSJp/+ALYxprGtXOzYnIsOIIBNx
+ Y09kMEDMmBFjxAZHGERm0xATlkDe9UtfywvHvbcw0H0TA723MNDf2c
+ domI9etMYLzrsMhz57b+BF9voY+dnKQnRjW7EThbtrbuTqb+xtmwjj
+ kGswCoKLWhwFncSKYIkP8zRwGyNEDB7qXwSLMkOtCwAAAQmvAzw/eG
+ 1sIHZlcnNpb249IjEuMCIgZW5jb2Rpbmc9InV0Zi0xNiI/Pg0KPFBo
+ b25lU2V0Pg0KICA8VmVyc2lvbj4xNS4wLjAuMDwvVmVyc2lvbj4NCi
+ AgPFBob25lcz4NCiAgICA8UGhvbmUgU3RhcnRJbmRleD0iMjUzIj4N
+ CiAgICAgIDxQaG9uZVN0cmluZz4xNjUwMjE1NTE5MjwvUGhvbmVTdH
+ Jpbmc+DQogICAgICA8T3JpZ2luYWxQaG9uZVN0cmluZz4rMS02NTAt
+ MjE1LTUxOTI8L09yaWdpbmFsUGhvbmVTdHJpbmc+DQogICAgPC9QaG
+ 9uZT4NCiAgICA8UGhvbmUgU3RhcnRJbmRleD0iMzQzIj4NCiAgICAg
+ IDxQaG9uZVN0cmluZz4xODMzMzkxODYzODwvUGhvbmVTdHJpbmc+DQ
+ ogICAgICA8T3JpZ2luYWxQaG9uZVN0cmluZz4xLTgzMy0zOTEtODYz
+ ODwvT3JpZ2luYWxQaG9uZVN0cmluZz4NCiAgICA8L1Bob25lPg0KIC
+ A8L1Bob25lcz4NCjwvUGhvbmVTZXQ+AQ7PAVJldHJpZXZlck9wZXJh
+ dG9yLDEwLDE7UmV0cmlldmVyT3BlcmF0b3IsMTEsMztQb3N0RG9jUG
+ Fyc2VyT3BlcmF0b3IsMTAsMTtQb3N0RG9jUGFyc2VyT3BlcmF0b3Is
+ MTEsMDtQb3N0V29yZEJyZWFrZXJEaWFnbm9zdGljT3BlcmF0b3IsMT
+ AsMztQb3N0V29yZEJyZWFrZXJEaWFnbm9zdGljT3BlcmF0b3IsMTEs
+ MDtUcmFuc3BvcnRXcml0ZXJQcm9kdWNlciwyMCw0Nw==
+X-MS-Exchange-Forest-IndexAgent: 1 1894
+X-MS-Exchange-Forest-EmailMessageHash: EBF9A680
+X-MS-Exchange-Forest-Language: en
+X-MS-Exchange-Forest-RulesExecuted: SN1NAM02HT090
+X-Microsoft-Antispam-Message-Info:
+ ZALMbMkpJbllDIg5Vl5sF4dsIUL1U6WVUklSpaUCtslVv5Yr/FMevyCD2R+SZpR6DkvR0GHwcrZcZuqtfKmU+U2h+aIdwSwo4uxh1uzFsySPlB0zwjfq0RrN800AAvmKeYnbSVR3+lsYjqyPovQ2pZ6X7mds3BB6mlwRt23ZKPTgOgb0tZRKdK8KKucovq2Wye4meERxGqpWv1Z6J6p5ejHj2Dlyw3zNMkVyOBvSI7dqeIE1bsuBl1JTHH6AjwZid06/1oBp/2P54lQswjZ7NOmVQjiYyiANLOhxklJ7Ae+qXXuzklQKuM3Vuiw9w/E9OezRNUHn3g9/6bBZ3E/O5ehswavhEVZmWAjKPxM0p8xLrtfoJ23ssNM2tGL/kU+L7f7sOd5g5tgR9EmSKjq4oED0A8X+x1j8NcCZ7qXwLMOhs7+22/MdlBtLHdJ5VG7oJJkmXAxYzyUsR+l6KOO6B+Q1p+3B5JgY5ZDvHJpujOw8f59gZ98msw1EADZZheaESoPRNbXlX9VSI456Wm98tSLC36q7ZC2sr905qFM01T7OTCqCadp0IbiGZ7uMJ6JxWU2ht1GC8M+3ikMY1psqtYGsNRhw5AMFEf1XfXB9cjO5iQHHnnMrFJ7HYaqCXdkSz5JZRLTbbZ3vc2Tj0P0DAnKi0sRY3EJ0sTyUflw78N8f1h4c2mCZklr3nud3RRO4rNQNiQJA05VIZoW6X+PVeiErH3Vh4IdAzYyi8w2tuCWArAVz6LLzgmcNX+V+EFjCdXKkWntKARGJMyII4Pelsb6cvRhGKOk6aZlwrh3k9l5go4M7hwdQXJ9fz2NlRUSYl4nd+cHyqDekGpkY/jOue8WClHgX1DU/g2prq2Ax8m0=
+X-OriginatorOrg: amer.teams.ms
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 12 Jun 2019 13:25:20.7548
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 5f7d9994-21df-4e44-e8d8-08d6ef396b1b
+X-MS-Exchange-CrossTenant-Id: d05e17c4-5098-4d52-85d6-2b3054875c8d
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SN1NAM02HT090
+
+--_000_SN6PR01MB4221368F2C890F2ABF2452A6C7EC0SN6PR01MB4221prod_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+To talk about the next badge materials.
+...........................................................................=
+..............................................................
+Join Skype Meeting<https://join.ucrtc.dxc.com/meet/edavis67/T5MD3YVT>
+Trouble Joining? Try Skype Web App<https://join.ucrtc.dxc.com/meet/edavis67=
+/T5MD3YVT?sl=3D1>
+Join by phone
+
++1-650-215-5192 (USA, Palo Alto, CA),,287520263# (USA Attendees)           =
+        English (United States)
+1-833-391-8638 (Customers/Partners in USA),,287520263# (USA Attendees)     =
+                English (United States)
+
+Find a local number<https://join.ucrtc.dxc.com/dialin?id=3D287520263>
+
+Conference ID: 287520263
+Forgot your dial-in PIN?<https://join.ucrtc.dxc.com/dialin> |Help<https://o=
+15.officeredir.microsoft.com/r/rlidLync15?clid=3D1033&p1=3D5&p2=3D2009>
+
+[!OC([1033])!]
+...........................................................................=
+..............................................................
+
+___________________________________________________________________________=
+_____
+Join Microsoft Teams Meeting<https://teams.microsoft.com/l/meetup-join/19%3=
+ameeting_M2VjMGE2YTMtN2RjMy00OGMzLWEzNTYtNmIyY2I2NzQ4ZDlk%40thread.v2/0?con=
+text=3D%7b%22Tid%22%3a%2293f33571-550f-43cf-b09f-cd331338d086%22%2c%22Oid%2=
+2%3a%22d633a826-6c46-46ab-b101-e3f268982137%22%7d>
+Learn more about Teams<https://go.microsoft.com/fwlink/?linkid=3D857250> | =
+Meeting options<https://teams.microsoft.com/meetingOptions/?organizerId=3Dd=
+633a826-6c46-46ab-b101-e3f268982137&tenantId=3D93f33571-550f-43cf-b09f-cd33=
+1338d086&threadId=3D19_meeting_M2VjMGE2YTMtN2RjMy00OGMzLWEzNTYtNmIyY2I2NzQ4=
+ZDlk@thread.v2&messageId=3D0&language=3Den-US>
+[https://dxcworksharemedia.blob.core.windows.net/images/dxc_logo_Teams_Meet=
+ings.png]
+This meeting request is sent to you by or on behalf of DXC Technology. It i=
+s intended exclusively for the addressee. If you are not the intended recip=
+ient of this message, you are not authorized to read, print, retain, copy o=
+r disseminate any part.
+___________________________________________________________________________=
+_____
+
+
+
+DXC Technology Company -- This message is transmitted to you by or on behal=
+f of DXC Technology Company or one of its affiliates. It is intended exclus=
+ively for the addressee. The substance of this message, along with any atta=
+chments, may contain proprietary, confidential or privileged information or=
+ information that is otherwise legally exempt from disclosure. Any unauthor=
+ized review, use, disclosure or distribution is prohibited. If you are not =
+the intended recipient of this message, you are not authorized to read, pri=
+nt, retain, copy or disseminate any part of this message. If you have recei=
+ved this message in error, please destroy and delete all copies and notify =
+the sender by return e-mail. Regardless of content, this e-mail shall not o=
+perate to bind DXC Technology Company or any of its affiliates to any order=
+ or other contract unless pursuant to explicit written agreement or governm=
+ent initiative expressly permitting the use of e-mail for such purpose.
+
+--_000_SN6PR01MB4221368F2C890F2ABF2452A6C7EC0SN6PR01MB4221prod_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:"Segoe UI Semibold";
+	panose-1:2 11 7 2 4 2 4 2 2 3;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle18
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-US" link=3D"#0563C1" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal"><a name=3D"_InsertRtfSavedPosition"></a>To talk abou=
+t the next badge materials.<o:p></o:p></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:8.0pt;color:#404040">...................................................=
+...........................................................................=
+...........</span><b><span style=3D"font-size:14.0pt"><o:p></o:p></span></b=
+></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><a name=3D"OutJoinLink=
+"></a><a href=3D"https://join.ucrtc.dxc.com/meet/edavis67/T5MD3YVT"><span s=
+tyle=3D"mso-bookmark:OutJoinLink"><span style=3D"font-size:16.0pt;color:#00=
+66CC">Join Skype Meeting</span></span><span style=3D"mso-bookmark:OutJoinLi=
+nk"></span></a><span style=3D"mso-bookmark:OutJoinLink"><span style=3D"font=
+-size:14.0pt">&nbsp;
+<a name=3D"OutSharedNoteBorder">&nbsp;</a>&nbsp;&nbsp;<a name=3D"OutSharedN=
+oteLink">&nbsp;</a></span></span><span style=3D"font-size:14.0pt"><o:p></o:=
+p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:3.0pt;margin-right:0in;m=
+argin-bottom:12.0pt;margin-left:16.0pt;line-height:125%;text-autospace:none=
+">
+<span style=3D"font-size:10.0pt;line-height:125%">Trouble Joining? <u><a hr=
+ef=3D"https://join.ucrtc.dxc.com/meet/edavis67/T5MD3YVT?sl=3D1"><span style=
+=3D"color:#0066CC">Try Skype Web App</span></a></u><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span lang=3D"EN" styl=
+e=3D"font-size:13.0pt;color:black">Join by phone</span><span lang=3D"EN" st=
+yle=3D"font-size:8.0pt;color:black"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span lang=3D"EN" styl=
+e=3D"font-size:8.0pt"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:2.0pt;text-autospace:none"><s=
+pan lang=3D"EN" style=3D"font-size:10.0pt">&#43;1-650-215-5192 (USA, Palo A=
+lto, CA),,287520263# (USA Attendees) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; English (U=
+nited States)
+</span><span lang=3D"EN" style=3D"font-size:8.0pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:2.0pt;text-autospace:none"><s=
+pan lang=3D"EN" style=3D"font-size:10.0pt">1-833-391-8638 (Customers/Partne=
+rs in USA),,287520263# (USA Attendees) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp; English (United States)
+</span><span lang=3D"EN" style=3D"font-size:3.0pt">&nbsp;<o:p></o:p></span>=
+</p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:2.0pt;text-autospace:none"><s=
+pan lang=3D"EN" style=3D"font-size:3.0pt"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:2.0pt;text-autospace:none"><u=
+><span lang=3D"EN" style=3D"font-size:10.0pt;color:#943634"><a href=3D"http=
+s://join.ucrtc.dxc.com/dialin?id=3D287520263"><span style=3D"color:#0066CC"=
+>Find a local number</span></a></span></u><span lang=3D"EN">
+</span><span lang=3D"EN" style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:2.0pt;text-autospace:none"><s=
+pan lang=3D"EN" style=3D"font-size:8.0pt"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:2.0pt;text-autospace:none"><s=
+pan lang=3D"EN" style=3D"font-size:10.0pt">Conference ID: 287520263</span><=
+span lang=3D"EN" style=3D"font-size:10.5pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span lang=3D"EN" styl=
+e=3D"font-size:10.0pt;color:#0066CC"><a href=3D"https://join.ucrtc.dxc.com/=
+dialin"><span style=3D"color:#0066CC">Forgot your dial-in PIN?</span></a></=
+span><span lang=3D"EN" style=3D"font-size:3.0pt">
+</span><span lang=3D"EN">|</span><span lang=3D"EN" style=3D"font-size:10.0p=
+t"><a href=3D"https://o15.officeredir.microsoft.com/r/rlidLync15?clid=3D103=
+3&amp;p1=3D5&amp;p2=3D2009"><span style=3D"color:#0066CC">Help</span></a></=
+span><span lang=3D"EN" style=3D"font-size:3.0pt">&nbsp;&nbsp;
+</span><span lang=3D"EN" style=3D"font-size:8.0pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span lang=3D"EN" styl=
+e=3D"font-size:14.0pt"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><sub><span lang=3D"EN"=
+ style=3D"font-size:1.0pt;color:white">[!OC([1033])!]</span></sub><span lan=
+g=3D"EN" style=3D"font-size:3.0pt"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-bottom:10.0pt;line-height:115%;text-=
+autospace:none">
+<span lang=3D"EN" style=3D"font-size:8.0pt;line-height:115%;color:#404040">=
+...........................................................................=
+..............................................................</span><span =
+lang=3D"EN" style=3D"font-size:10.5pt;line-height:115%"><o:p></o:p></span><=
+/p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"color:gray">_________________________=
+_______________________________________________________</span>
+<o:p></o:p></p>
+</div>
+<div>
+<div style=3D"margin-top:.25in;margin-bottom:7.5pt">
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Segoe UI&quot;,sans=
+-serif;color:#252424"><a href=3D"https://teams.microsoft.com/l/meetup-join/=
+19%3ameeting_M2VjMGE2YTMtN2RjMy00OGMzLWEzNTYtNmIyY2I2NzQ4ZDlk%40thread.v2/0=
+?context=3D%7b%22Tid%22%3a%2293f33571-550f-43cf-b09f-cd331338d086%22%2c%22O=
+id%22%3a%22d633a826-6c46-46ab-b101-e3f268982137%22%7d" target=3D"_blank"><s=
+pan style=3D"font-size:13.5pt;font-family:&quot;Segoe UI Semibold&quot;,san=
+s-serif;color:#6264A7">Join
+ Microsoft Teams Meeting</span></a> <o:p></o:p></span></p>
+</div>
+<div style=3D"margin-bottom:.25in">
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Segoe UI&quot;,sans=
+-serif;color:#252424"><a href=3D"https://go.microsoft.com/fwlink/?linkid=3D=
+857250" target=3D"_blank"><span style=3D"font-size:9.0pt;color:#6264A7;text=
+-decoration:none">Learn more about Teams</span></a> |
+<a href=3D"https://teams.microsoft.com/meetingOptions/?organizerId=3Dd633a8=
+26-6c46-46ab-b101-e3f268982137&amp;tenantId=3D93f33571-550f-43cf-b09f-cd331=
+338d086&amp;threadId=3D19_meeting_M2VjMGE2YTMtN2RjMy00OGMzLWEzNTYtNmIyY2I2N=
+zQ4ZDlk@thread.v2&amp;messageId=3D0&amp;language=3Den-US" target=3D"_blank"=
+>
+<span style=3D"font-size:9.0pt;color:#6264A7;text-decoration:none">Meeting =
+options</span></a>
+<o:p></o:p></span></p>
+</div>
+<div style=3D"margin-bottom:3.0pt">
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Se=
+goe UI&quot;,sans-serif;color:#252424"><img border=3D"0" width=3D"167" heig=
+ht=3D"30" style=3D"width:1.7416in;height:.3083in" id=3D"_x0000_i1025" src=
+=3D"https://dxcworksharemedia.blob.core.windows.net/images/dxc_logo_Teams_M=
+eetings.png" alt=3D"https://dxcworksharemedia.blob.core.windows.net/images/=
+dxc_logo_Teams_Meetings.png"></span><span style=3D"font-size:10.5pt;font-fa=
+mily:&quot;Segoe UI&quot;,sans-serif;color:#252424"><o:p></o:p></span></p>
+</div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Se=
+goe UI&quot;,sans-serif;color:#252424">This meeting request is sent to you =
+by or on behalf of DXC Technology. It is intended exclusively for the addre=
+ssee. If you are not the intended recipient of
+ this message, you are not authorized to read, print, retain, copy or disse=
+minate any part.
+<o:p></o:p></span></p>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"color:gray">_________________________=
+_______________________________________________________</span>
+<o:p></o:p></p>
+</div>
+</div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+<br>
+<br>
+DXC Technology Company -- This message is transmitted to you by or on behal=
+f of DXC Technology Company or one of its affiliates. It is intended exclus=
+ively for the addressee. The substance of this message, along with any atta=
+chments, may contain proprietary,
+ confidential or privileged information or information that is otherwise le=
+gally exempt from disclosure. Any unauthorized review, use, disclosure or d=
+istribution is prohibited. If you are not the intended recipient of this me=
+ssage, you are not authorized to
+ read, print, retain, copy or disseminate any part of this message. If you =
+have received this message in error, please destroy and delete all copies a=
+nd notify the sender by return e-mail. Regardless of content, this e-mail s=
+hall not operate to bind DXC Technology
+ Company or any of its affiliates to any order or other contract unless pur=
+suant to explicit written agreement or government initiative expressly perm=
+itting the use of e-mail for such purpose.
+</body>
+</html>
+
+--_000_SN6PR01MB4221368F2C890F2ABF2452A6C7EC0SN6PR01MB4221prod_
+Content-Type: text/calendar; charset="utf-8"; method=REQUEST
+Content-Transfer-Encoding: base64
+
+QkVHSU46VkNBTEVOREFSDQpNRVRIT0Q6UkVRVUVTVA0KUFJPRElEOk1pY3Jvc29mdCBFeGNoYW5n
+ZSBTZXJ2ZXIgMjAxMA0KVkVSU0lPTjoyLjANCkJFR0lOOlZUSU1FWk9ORQ0KVFpJRDpDZW50cmFs
+IFN0YW5kYXJkIFRpbWUNCkJFR0lOOlNUQU5EQVJEDQpEVFNUQVJUOjE2MDEwMTAxVDAyMDAwMA0K
+VFpPRkZTRVRGUk9NOi0wNTAwDQpUWk9GRlNFVFRPOi0wNjAwDQpSUlVMRTpGUkVRPVlFQVJMWTtJ
+TlRFUlZBTD0xO0JZREFZPTFTVTtCWU1PTlRIPTExDQpFTkQ6U1RBTkRBUkQNCkJFR0lOOkRBWUxJ
+R0hUDQpEVFNUQVJUOjE2MDEwMTAxVDAyMDAwMA0KVFpPRkZTRVRGUk9NOi0wNjAwDQpUWk9GRlNF
+VFRPOi0wNTAwDQpSUlVMRTpGUkVRPVlFQVJMWTtJTlRFUlZBTD0xO0JZREFZPTJTVTtCWU1PTlRI
+PTMNCkVORDpEQVlMSUdIVA0KRU5EOlZUSU1FWk9ORQ0KQkVHSU46VkVWRU5UDQpPUkdBTklaRVI7
+Q049IkRhdmlzLCBFYXJsIjpNQUlMVE86ZWRhdmlzNjdAZHhjLmNvbQ0KQVRURU5ERUU7Uk9MRT1S
+RVEtUEFSVElDSVBBTlQ7UEFSVFNUQVQ9TkVFRFMtQUNUSU9OO1JTVlA9VFJVRTtDTj1BSSBHdWls
+ZCA0DQogOSAtIFVUQyAtNiAtIEluZHVzdHJpYWxpemVkIEFJIE9wZW4gQmFkZ2UgQWNhZGVteSBC
+b290IENhbXAgMy4xMy4xOS00LjE3LjENCiA5Ok1BSUxUTzpjMzU4MDA5My5DU0NQb3J0YWwub25t
+aWNyb3NvZnQuY29tQGFtZXIudGVhbXMubXMNCkRFU0NSSVBUSU9OO0xBTkdVQUdFPWVuLVVTOlRv
+IHRhbGsgYWJvdXQgdGhlIG5leHQgYmFkZ2UgbWF0ZXJpYWxzLlxuLi4uLi4uLg0KIC4uLi4uLi4u
+Li4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4u
+Li4uLi4uLi4uDQogLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4u
+Li4uLi4uLi4uLi5cbkpvaW4gU2t5cGUgTWVldGkNCiBuZzxodHRwczovL2pvaW4udWNydGMuZHhj
+LmNvbS9tZWV0L2VkYXZpczY3L1Q1TUQzWVZUPlxuVHJvdWJsZSBKb2luaW5nPyBUcg0KIHkgU2t5
+cGUgV2ViIEFwcDxodHRwczovL2pvaW4udWNydGMuZHhjLmNvbS9tZWV0L2VkYXZpczY3L1Q1TUQz
+WVZUP3NsPTE+XG5KDQogb2luIGJ5IHBob25lXG5cbisxLTY1MC0yMTUtNTE5MiAoVVNBXCwgUGFs
+byBBbHRvXCwgQ0EpXCxcLDI4NzUyMDI2MyMgKFVTQSANCiBBdHRlbmRlZXMpICAgICAgICAgICAg
+ICAgICAgIEVuZ2xpc2ggKFVuaXRlZCBTdGF0ZXMpXG4xLTgzMy0zOTEtODYzOCAoQ3VzdA0KIG9t
+ZXJzL1BhcnRuZXJzIGluIFVTQSlcLFwsMjg3NTIwMjYzIyAoVVNBIEF0dGVuZGVlcykgICAgICAg
+ICAgICAgICAgICAgICBFDQogbmdsaXNoIChVbml0ZWQgU3RhdGVzKVxuXG5GaW5kIGEgbG9jYWwg
+bnVtYmVyPGh0dHBzOi8vam9pbi51Y3J0Yy5keGMuY29tL2QNCiBpYWxpbj9pZD0yODc1MjAyNjM+
+XG5cbkNvbmZlcmVuY2UgSUQ6IDI4NzUyMDI2M1xuRm9yZ290IHlvdXIgZGlhbC1pbiBQSU4/PA0K
+IGh0dHBzOi8vam9pbi51Y3J0Yy5keGMuY29tL2RpYWxpbj4gfEhlbHA8aHR0cHM6Ly9vMTUub2Zm
+aWNlcmVkaXIubWljcm9zb2Z0DQogLmNvbS9yL3JsaWRMeW5jMTU/Y2xpZD0xMDMzJnAxPTUmcDI9
+MjAwOT5cblxuWyFPQyhbMTAzM10pIV1cbi4uLi4uLi4uLi4uLi4NCiAuLi4uLi4uLi4uLi4uLi4u
+Li4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4u
+Lg0KIC4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uXG5c
+bl9fX19fX19fX19fX19fX19fX19fDQogX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19f
+X19fX19fX19fX19fX19fX19fX19fX19fX19fXG5Kb2luIE1pY3Jvc28NCiBmdCBUZWFtcyBNZWV0
+aW5nPGh0dHBzOi8vdGVhbXMubWljcm9zb2Z0LmNvbS9sL21lZXR1cC1qb2luLzE5JTNhbWVldGlu
+Z19NMg0KIFZqTUdFMllUTXROMlJqTXkwME9HTXpMV0V6TlRZdE5tSXlZMkkyTnpRNFpEbGslNDB0
+aHJlYWQudjIvMD9jb250ZXh0PSU3YiUyDQogMlRpZCUyMiUzYSUyMjkzZjMzNTcxLTU1MGYtNDNj
+Zi1iMDlmLWNkMzMxMzM4ZDA4NiUyMiUyYyUyMk9pZCUyMiUzYSUyMmQ2MzMNCiBhODI2LTZjNDYt
+NDZhYi1iMTAxLWUzZjI2ODk4MjEzNyUyMiU3ZD5cbkxlYXJuIG1vcmUgYWJvdXQgVGVhbXM8aHR0
+cHM6Ly9nbw0KIC5taWNyb3NvZnQuY29tL2Z3bGluay8/bGlua2lkPTg1NzI1MD4gfCBNZWV0aW5n
+IG9wdGlvbnM8aHR0cHM6Ly90ZWFtcy5taWNyDQogb3NvZnQuY29tL21lZXRpbmdPcHRpb25zLz9v
+cmdhbml6ZXJJZD1kNjMzYTgyNi02YzQ2LTQ2YWItYjEwMS1lM2YyNjg5ODIxMzcNCiAmdGVuYW50
+SWQ9OTNmMzM1NzEtNTUwZi00M2NmLWIwOWYtY2QzMzEzMzhkMDg2JnRocmVhZElkPTE5X21lZXRp
+bmdfTTJWak1HRQ0KIDJZVE10TjJSak15MDBPR016TFdFek5UWXRObUl5WTJJMk56UTRaRGxrQHRo
+cmVhZC52MiZtZXNzYWdlSWQ9MCZsYW5ndWFnZT1lDQogbi1VUz5cbltodHRwczovL2R4Y3dvcmtz
+aGFyZW1lZGlhLmJsb2IuY29yZS53aW5kb3dzLm5ldC9pbWFnZXMvZHhjX2xvZ29fVGUNCiBhbXNf
+TWVldGluZ3MucG5nXVxuVGhpcyBtZWV0aW5nIHJlcXVlc3QgaXMgc2VudCB0byB5b3UgYnkgb3Ig
+b24gYmVoYWxmIG9mIA0KIERYQyBUZWNobm9sb2d5LiBJdCBpcyBpbnRlbmRlZCBleGNsdXNpdmVs
+eSBmb3IgdGhlIGFkZHJlc3NlZS4gSWYgeW91IGFyZSBuDQogb3QgdGhlIGludGVuZGVkIHJlY2lw
+aWVudCBvZiB0aGlzIG1lc3NhZ2VcLCB5b3UgYXJlIG5vdCBhdXRob3JpemVkIHRvIHJlYWQNCiBc
+LCBwcmludFwsIHJldGFpblwsIGNvcHkgb3IgZGlzc2VtaW5hdGUgYW55IHBhcnQuXG5fX19fX19f
+X19fX19fX19fX19fX19fXw0KIF9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19f
+X19fX19fX19fX19fX19fX19fX1xuXG5cblxuRFhDIFRlY2huDQogb2xvZ3kgQ29tcGFueSAtLSBU
+aGlzIG1lc3NhZ2UgaXMgdHJhbnNtaXR0ZWQgdG8geW91IGJ5IG9yIG9uIGJlaGFsZiBvZiBEWEMN
+CiAgVGVjaG5vbG9neSBDb21wYW55IG9yIG9uZSBvZiBpdHMgYWZmaWxpYXRlcy4gSXQgaXMgaW50
+ZW5kZWQgZXhjbHVzaXZlbHkgZg0KIG9yIHRoZSBhZGRyZXNzZWUuIFRoZSBzdWJzdGFuY2Ugb2Yg
+dGhpcyBtZXNzYWdlXCwgYWxvbmcgd2l0aCBhbnkgYXR0YWNobWVuDQogdHNcLCBtYXkgY29udGFp
+biBwcm9wcmlldGFyeVwsIGNvbmZpZGVudGlhbCBvciBwcml2aWxlZ2VkIGluZm9ybWF0aW9uIG9y
+IGkNCiBuZm9ybWF0aW9uIHRoYXQgaXMgb3RoZXJ3aXNlIGxlZ2FsbHkgZXhlbXB0IGZyb20gZGlz
+Y2xvc3VyZS4gQW55IHVuYXV0aG9yaQ0KIHplZCByZXZpZXdcLCB1c2VcLCBkaXNjbG9zdXJlIG9y
+IGRpc3RyaWJ1dGlvbiBpcyBwcm9oaWJpdGVkLiBJZiB5b3UgYXJlIG5vDQogdCB0aGUgaW50ZW5k
+ZWQgcmVjaXBpZW50IG9mIHRoaXMgbWVzc2FnZVwsIHlvdSBhcmUgbm90IGF1dGhvcml6ZWQgdG8g
+cmVhZFwNCiAsIHByaW50XCwgcmV0YWluXCwgY29weSBvciBkaXNzZW1pbmF0ZSBhbnkgcGFydCBv
+ZiB0aGlzIG1lc3NhZ2UuIElmIHlvdSBoYQ0KIHZlIHJlY2VpdmVkIHRoaXMgbWVzc2FnZSBpbiBl
+cnJvclwsIHBsZWFzZSBkZXN0cm95IGFuZCBkZWxldGUgYWxsIGNvcGllcyBhDQogbmQgbm90aWZ5
+IHRoZSBzZW5kZXIgYnkgcmV0dXJuIGUtbWFpbC4gUmVnYXJkbGVzcyBvZiBjb250ZW50XCwgdGhp
+cyBlLW1haWwNCiAgc2hhbGwgbm90IG9wZXJhdGUgdG8gYmluZCBEWEMgVGVjaG5vbG9neSBDb21w
+YW55IG9yIGFueSBvZiBpdHMgYWZmaWxpYXRlcw0KICB0byBhbnkgb3JkZXIgb3Igb3RoZXIgY29u
+dHJhY3QgdW5sZXNzIHB1cnN1YW50IHRvIGV4cGxpY2l0IHdyaXR0ZW4gYWdyZWVtDQogZW50IG9y
+IGdvdmVybm1lbnQgaW5pdGlhdGl2ZSBleHByZXNzbHkgcGVybWl0dGluZyB0aGUgdXNlIG9mIGUt
+bWFpbCBmb3Igc3UNCiBjaCBwdXJwb3NlLlxuDQpVSUQ6MDQwMDAwMDA4MjAwRTAwMDc0QzVCNzEw
+MUE4MkUwMDgwMDAwMDAwMEMwQ0U2NzJDNTQyMEQ1MDEwMDAwMDAwMDAwMDAwMDANCiAwMTAwMDAw
+MDA4QkYxQ0QyN0QwMDdDRTQ4OENDMkY2RjYxMTgyQ0IzRA0KU1VNTUFSWTtMQU5HVUFHRT1lbi1V
+UzpHdWlsZCA0OSBNZWV0aW5nDQpEVFNUQVJUO1RaSUQ9Q2VudHJhbCBTdGFuZGFyZCBUaW1lOjIw
+MTkwNjEyVDExMDAwMA0KRFRFTkQ7VFpJRD1DZW50cmFsIFN0YW5kYXJkIFRpbWU6MjAxOTA2MTJU
+MTEzMDAwDQpDTEFTUzpQVUJMSUMNClBSSU9SSVRZOjUNCkRUU1RBTVA6MjAxOTA2MTJUMTMyNTE2
+Wg0KVFJBTlNQOk9QQVFVRQ0KU1RBVFVTOkNPTkZJUk1FRA0KU0VRVUVOQ0U6MA0KTE9DQVRJT047
+TEFOR1VBR0U9ZW4tVVM6U2t5cGUgTWVldGluZyArIHNvbWUgcm9vbSBJIGNhbiBmaW5kIGFyb3Vu
+ZCAxMQ0KWC1NSUNST1NPRlQtQ0RPLUFQUFQtU0VRVUVOQ0U6MA0KWC1NSUNST1NPRlQtQ0RPLU9X
+TkVSQVBQVElEOi0yMTUxOTM2MjkNClgtTUlDUk9TT0ZULUNETy1CVVNZU1RBVFVTOlRFTlRBVElW
+RQ0KWC1NSUNST1NPRlQtQ0RPLUlOVEVOREVEU1RBVFVTOkJVU1kNClgtTUlDUk9TT0ZULUNETy1B
+TExEQVlFVkVOVDpGQUxTRQ0KWC1NSUNST1NPRlQtQ0RPLUlNUE9SVEFOQ0U6MQ0KWC1NSUNST1NP
+RlQtQ0RPLUlOU1RUWVBFOjANClgtTUlDUk9TT0ZULVNLWVBFVEVBTVNNRUVUSU5HVVJMOmh0dHBz
+Oi8vdGVhbXMubWljcm9zb2Z0LmNvbS9sL21lZXR1cC1qb2luLw0KIDE5JTNhbWVldGluZ19NMlZq
+TUdFMllUTXROMlJqTXkwME9HTXpMV0V6TlRZdE5tSXlZMkkyTnpRNFpEbGslNDB0aHJlYWQudjIv
+DQogMD9jb250ZXh0PSU3YiUyMlRpZCUyMiUzYSUyMjkzZjMzNTcxLTU1MGYtNDNjZi1iMDlmLWNk
+MzMxMzM4ZDA4NiUyMiUyYyUyMk8NCiBpZCUyMiUzYSUyMmQ2MzNhODI2LTZjNDYtNDZhYi1iMTAx
+LWUzZjI2ODk4MjEzNyUyMiU3ZA0KWC1NSUNST1NPRlQtU0NIRURVTElOR1NFUlZJQ0VVUERBVEVV
+Ukw6aHR0cHM6Ly9zY2hlZHVsZXIudGVhbXMubWljcm9zb2Z0LmNvDQogbS90ZWFtcy85M2YzMzU3
+MS01NTBmLTQzY2YtYjA5Zi1jZDMzMTMzOGQwODYvZDYzM2E4MjYtNmM0Ni00NmFiLWIxMDEtZTNm
+MjYNCiA4OTgyMTM3LzE5X21lZXRpbmdfTTJWak1HRTJZVE10TjJSak15MDBPR016TFdFek5UWXRO
+bUl5WTJJMk56UTRaRGxrQHRocmVhZA0KIC52Mi8wDQpYLU1JQ1JPU09GVC1TS1lQRVRFQU1TUFJP
+UEVSVElFUzp7ImNpZCI6IjE5Om1lZXRpbmdfTTJWak1HRTJZVE10TjJSak15MDBPR00NCiB6TFdF
+ek5UWXRObUl5WTJJMk56UTRaRGxrQHRocmVhZC52MiJcLCJwcml2YXRlIjp0cnVlXCwidHlwZSI6
+MFwsIm1pZCI6MFwsIg0KIHJpZCI6MFwsInVpZCI6bnVsbH0NClgtTUlDUk9TT0ZULU9OTElORU1F
+RVRJTkdFWFRFUk5BTExJTks6aHR0cHM6Ly9qb2luLnVjcnRjLmR4Yy5jb20vbWVldC9lZGF2aQ0K
+IHM2Ny9UNU1EM1lWVA0KWC1NSUNST1NPRlQtT05MSU5FTUVFVElOR0NPTkZMSU5LOmNvbmY6c2lw
+OmVkYXZpczY3QGR4Yy5jb21cO2dydXVcO29wYXF1ZT1hDQogcHA6Y29uZjpmb2N1czppZDpUNU1E
+M1lWVD9jb252ZXJzYXRpb24taWQ9b0pKMGNPZndwYzg1DQpYLU1JQ1JPU09GVC1DT05GRVJFTkNF
+VEVMVVJJOnRlbDorMTY1MDIxNTUxOTJcLFwsMjg3NTIwMjYzDQpYLU1JQ1JPU09GVC1ET05PVEZP
+UldBUkRNRUVUSU5HOkZBTFNFDQpYLU1JQ1JPU09GVC1ESVNBTExPVy1DT1VOVEVSOkZBTFNFDQpY
+LU1JQ1JPU09GVC1MT0NBVElPTlM6W3siRGlzcGxheU5hbWUiOiJTa3lwZSBNZWV0aW5nICsgc29t
+ZSByb29tIEkgY2FuIGZpbmQNCiAgYXJvdW5kIDExIlwsIkxvY2F0aW9uQW5ub3RhdGlvbiI6IiJc
+LCJMb2NhdGlvblVyaSI6IiJcLCJMb2NhdGlvblN0cmVldCI6Ig0KICJcLCJMb2NhdGlvbkNpdHki
+OiIiXCwiTG9jYXRpb25TdGF0ZSI6IiJcLCJMb2NhdGlvbkNvdW50cnkiOiIiXCwiTG9jYXRpb25Q
+DQogb3N0YWxDb2RlIjoiIlwsIkxvY2F0aW9uRnVsbEFkZHJlc3MiOiIifV0NCkJFR0lOOlZBTEFS
+TQ0KREVTQ1JJUFRJT046UkVNSU5ERVINClRSSUdHRVI7UkVMQVRFRD1TVEFSVDotUFQxNU0NCkFD
+VElPTjpESVNQTEFZDQpFTkQ6VkFMQVJNDQpFTkQ6VkVWRU5UDQpFTkQ6VkNBTEVOREFSDQo=
+
+--_000_SN6PR01MB4221368F2C890F2ABF2452A6C7EC0SN6PR01MB4221prod_--
